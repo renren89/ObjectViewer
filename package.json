@@ -4,7 +4,7 @@
   "description": "Testing/Learning React Boilerplate",
   "main": "index.js",
   "scripts": {
-    "start": "node devServer.js",
+    "start": "babel-node devServer.js",
     "test": "",
     "lint": "eslint app"
   },
@@ -14,6 +14,7 @@
   "dependencies": {
     "body-parser": "^1.14.2",
     "cassandra-driver": "^3.0.0",
+    "node-uuid": "^1.4.7",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.3",

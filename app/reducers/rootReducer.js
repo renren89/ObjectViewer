@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import { helloWorld } from './sampleReducer';
+import { connector } from './connectorReducer';
+import { tables } from './tableReducer';
 
 export const rootReducer = combineReducers({
-  helloWorld
+  connector,
+  tables
 })

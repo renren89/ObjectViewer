@@ -1,0 +1,11 @@
+import React, { Component, Prototypes } from 'react';
+
+export default class Template extends Component {
+  render() {
+    return (
+      <div>
+
+      </div>
+    );
+  }
+}
